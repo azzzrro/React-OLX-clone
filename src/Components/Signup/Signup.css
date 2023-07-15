@@ -1,19 +1,29 @@
 .signupParentDiv {
     border: 1px solid black;
-    width: max-content;
+    width: 400px;
     padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    /* text-align: center; */
   }
+
+  .signupParentDiv form{
+    padding: 0 10px ;
+  }
+
+.signupParentDiv .signupImg{
+  text-align: center;
+}
   
   .signupParentDiv .input {
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
     outline-color: transparent;
+    width: 100%;
   }
   
   .signupParentDiv button {

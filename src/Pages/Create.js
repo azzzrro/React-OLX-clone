@@ -7,6 +7,7 @@ const CreatePage = () => {
     <Fragment>
       <Header />
       <Create/>
+      
     </Fragment>
   );
 };
